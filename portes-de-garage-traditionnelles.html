@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta content='IE=edge' http-equiv='X-UA-Compatible' />
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    <title>La Française du PVC - Portes De Garage traditionnels</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./Nos_Produit_Styles.css" />
+    <!-- Bootrap 5 CSS CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Owl Carousel file link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!--CSS Animations CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+    <script src="./jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/56f978ddf3.js" crossorigin="anonymous"></script>
+
+
+    <b:skin>
+        <![CDATA[ ]]>
+    </b:skin>
+</head>
+
+<body>
+
+    <!-- SideBar Mobile -->
+    <div id="mySidenav" class="sidenav" style="width: 0px;">
+        <div class="SideBarTop">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <a href="#">Nos Produit</a>
+        <a href="#">Votre Projet</a>
+        <a href="#">qui somme-nous?</a>
+        <a href="#">Contact</a>
+    </div>
+
+
+
+    <!-- header section starts  -->
+
+    <header class="header">
+        <div class="headerLogo">
+            <a href="./index.html" id="logo" class="logo"> <span id="Light_Logo" class="SVG_Icons"></span></a>
+
+            <div class="headerList">
+                <div class="navbarTop">
+                    <ul class="searchMenu">
+                        <li class="Controll-btns Lang-Btn FrSelected">
+                            <div class="one-quarter" id="switch">
+                                <input title="Changement De Langue" data-bs-placement="bottom" data-bs-toggle="tooltip" type="checkbox" class="checkbox" id="chk">
+                                <label class="label" for="chk">
+                                <span title="Changement De Langue" data-bs-placement="bottom" data-bs-toggle="tooltip" class="En-Lang" id="LangSelected-Icon"></span>
+                                <span title="Changement De Langue" data-bs-placement="bottom" data-bs-toggle="tooltip" class="Fr-Lang" id="LangSelected-Icon"></span>
+                                <div title="Changement De Langue" data-bs-placement="bottom" data-bs-toggle="tooltip" class="ball"></div>
+                            </label>
+                            </div>
+
+                        </li>
+                        <li class="Controll-btns DarkMod-Btn">
+                            <button title="Activer ou désactiver le mode nuit" data-bs-placement="bottom" data-bs-toggle="tooltip" type="button" class="btn btn-DarkMod"><i class="fa-solid fa-moon"></i></button>
+                        </li>
+                        <li class="expandserchbar">
+                            <div class="collaps">
+                                <form class="search-form" role="search" methode="POST">
+                                    <div class="formSearch">
+                                        <div class="searchInputBox IsNotVisible">
+                                            <button type="button" title="Fermer" data-bs-placement="bottom" data-bs-toggle="tooltip" class="btn btn-HideInputBox"><i class="fa-solid fa-arrow-right-long"></i></button>
+                                            <input type="search" id="search-box" placeholder="Recherche..."><button type="submit" title="Recherche" data-bs-placement="bottom" data-bs-toggle="tooltip" id="btn-search-two" class="btn btn-search btn-two"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                        </div>
+                                        <button type="button" title="Recherche" data-bs-placement="bottom" data-bs-toggle="tooltip" id="btn-search" class="btn btn-search IsNotActive"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <li class="DevunirUnProSection">
+                            <button type="submit" title="Vous êtes un pro ?" data-bs-placement="bottom" data-bs-toggle="tooltip" class="btn btn-InscrirPro"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+                            <a class="DevunirUnProLink" href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i><span>Vous êtes un pro ?</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbarBottom">
+                    <ul class="MainMenu">
+                        <li id="NosProduit-Btn" class="NosProduit-Btn MainMenu-Btns">
+                            <button class="NosProduitBtn dropdown-toggle" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#">Nos Produits <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="HeaderTaps NosProduit animate__animated animate__flipInX dropdown-menu" aria-labelledby="dropdownMenuClickableInside" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 80px);" data-popper-placement="bottom-start">
+                                <div class="HeaderTaps-Inner animate__animated">
+                                    <div class="closeBtnSection">
+                                        <h3 class="CloseBtnSection-Title"> Nos Produits</h3>
+                                        <button type="submit" title="Fermer" data-bs-placement="bottom" data-bs-toggle="tooltip" class="btn btn-CloseHeaderTap"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <ul class="ul smallHeight">
+                                        <div class="BlurEffect"></div>
+                                        <li>
+                                            <a href="./Fenêtres.html"><img src="./Assets/img/fenetres.svg" class="img-responsive svg" alt=""> fenêtres</a>
+                                        </li>
+                                        <li>
+                                            <a href="./portes-de-garage.html"><img src="./Assets/img/siglePJ.svg" class="img-responsive svg" alt=""> Portes de garage</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="./Assets/img/sigleVR.svg" id="Btn-OpenVoletsForm" class="img-responsive svg" alt=""> Volets</a>
+                                            <ul class="ul SubTaps  animate__animated animate__bounceInRight">
+                                                <div class="closeBtnSection ">
+                                                    <h3 class="CloseBtnSection-Title">Volets</h3>
+                                                    <button type="submit" title="Fermer" data-bs-placement="bottom" data-bs-toggle="tooltip" class="btn btn-CloseVoletsForm"><i class="fa-solid fa-xmark"></i></button>
+                                                </div>
+                                                <li>
+                                                    <a href="#"><img src="./Assets/img/sigleVR.svg" class="img-responsive svg" alt=""> Volets Roulants</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="./Assets/img/sigleVC.svg" class="img-responsive svg" alt=""> Volets coulissants</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="./Assets/img/sigleVB.svg" class="img-responsive svg" alt=""> Volets Battants</a>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                        <li>
+                                            <a class="Btn-ToggleHeaderTaps" href="./persiennes-jalousies.html"><img src="./Assets/img/siglePJ.svg" class="img-responsive svg" alt=""> Persiennes &amp; Jalousies</a>
+                                        </li>
+                                        <li>
+                                            <a class="Btn-ToggleHeaderTaps" href="./rideaux-grilles.html"><img src="./Assets/img/sigleRG.svg" class="img-responsive svg" alt=""> Rideaux &amp; Grilles</a>
+                                        </li>
+                                        <li>
+                                            <a class="Btn-ToggleHeaderTaps" href="./stores.html"><img src="./Assets/img/sigleST.svg" class="img-responsive svg" alt=""> Stores</a>
+                                        </li>
+                                        <li>
+                                            <a class="Btn-ToggleHeaderTaps" href="./domotique.html"><img src="./Assets/img/sigleDO.svg" class="img-responsive svg" alt=""> Domotique</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li id="VotreProjet-Btn" class="VotreProjet-Btn MainMenu-Btns">
+                            <button class="NosProduitBtn dropdown-toggle" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#">Votre Projet <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="HeaderTaps VotreProjet animate__animated animate__flipInX dropdown-menu" aria-labelledby="dropdownMenuClickableInside" style="position: absolute; inset: auto; left: 0;  margin: 0px; transform: translate(0px, 150px);">
+
+                                <div class="HeaderTaps-Inner animate__animated">
+                                    <div class="closeBtnSection">
+                                        <h3 class="CloseBtnSection-Title"> Votre Projet</h3>
+                                        <button type="submit" title="Fermer" data-bs-placement="bottom" data-bs-toggle="tooltip" class="btn btn-CloseHeaderTap"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <div class="ul smallHeight">
+
+                                        <div class="MenuConseil">
+                                            <div class="titreMenuConseil hidden-xs">Nos conseils pour vous et votre projet</div>
+                                            <ul>
+                                                <li class="visible-xs-block"><a href="/conseils"><i class="fa-solid fa-angle-right"></i>Nos conseils pour votre projet</a></li>
+                                                <li class="hidden-xs"><a href="/conseils"><i class="fa-solid fa-angle-right"></i>Quels Matériaux pour mon habitation ?</a></li>
+                                                <li class="hidden-xs"><a href="/conseils"><i class="fa-solid fa-angle-right"></i>Choisir les volets les plus adaptés</a></li>
+                                                <li class="hidden-xs"><a href="/conseils"><i class="fa-solid fa-angle-right"></i>Je veux la meilleure isolation</a></li>
+                                                <li><a href="/conseils?slug=bien-choisir-ses-volets-battants-en-3-etapes"><i class="fa-solid fa-angle-right"></i>Bien choisir ses volets battants en 3 étapes</a></li>
+                                            </ul>
+                                            <div class="NosConseilBtn">
+                                                <button type="submit" class="btn btn-NousConseil">Tous nos conseils</button>
+
+
+                                            </div>
+
+                                        </div>
+                                        <div class="MenuMore">
+                                            <ul>
+                                                <li><a href="/domotique"><i class="fa-solid fa-angle-right"></i>Tout savoir sur la maison connectée</a></li>
+                                                <li><a href="/accompagnement-de-a-a-z"><i class="fa-solid fa-angle-right"></i>L'accompagnement France Fermetures</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="AboutUs-Btn" class="AboutUs-Btn MainMenu-Btns">
+                            <button class="NosProduitBtn dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#">qui somme-nous?<i class="fa-solid fa-caret-down"></i></button>
+                            <div class="HeaderTaps QuiSommeNous animate__animated animate__flipInX dropdown-menu" aria-labelledby="dropdownMenuOffset" style="position: absolute; inset: auto; left: 0;  margin: 0px; transform: translate(0px, 150px);">
+
+                                <div class="HeaderTaps-Inner animate__animated">
+                                    <div class="closeBtnSection">
+                                        <h3 class="CloseBtnSection-Title"> Qui Qomme-Nous?</h3>
+                                        <button type="submit" title="Fermer" data-bs-placement="bottom" data-bs-toggle="tooltip" class="btn btn-CloseHeaderTap"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <ul class="ul smallHeight">
+                                        <div class="BlurEffect"></div>
+
+                                        <li>
+                                            <a href="#"><img src="./Assets/megamenu/actualite.svg" class="img-responsive svg" alt="">Actualités</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="./Assets/megamenu/entreprise.svg" class="img-responsive svg" alt="">Entreprise</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="./Assets/megamenu/garantie.svg" class="img-responsive svg" alt="">Nos Garantie</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="./Assets/megamenu/envirenment.svg" class="img-responsive svg" alt="">Envirenment</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="./Assets/megamenu/actualite.svg" class="img-responsive svg" alt="">Normes Et<br> Certifications</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul id="toolsMenu" class="toolsMenu MainMenu-Btns">
+                        <li>
+                            <a id="" href="#"><i title="Devis" data-bs-placement="bottom" data-bs-toggle="tooltip" class="fa-solid fa-location-dot"></i><span>Devis</span></a>
+                        </li>
+                        <li>
+                            <a id="" href="#"><i title="Trouver Un Pro" data-bs-placement="bottom" data-bs-toggle="tooltip" class="fa-solid fa-file-lines"></i><span>Trouver Un Pro</span></a>
+                        </li>
+                        <li><a id="" href="#"><i title="Brochures" data-bs-placement="bottom" data-bs-toggle="tooltip" class="fa-solid fa-comment-dots"></i><span>Brochures</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="headerLogoMobile">
+            <div class="barsBtnMobile">
+                <button onclick="openNav()" type="submit" class="btn btn-Settings"><i class="fa-solid fa-bars"></i> </button>
+            </div>
+            <a href="#" id="logo" class="logo"> <span id="Light_Logo" class="SVG_Icons"></span></a>
+
+            <div class="SettingsBtnMobile">
+                <button type="submit" class="btn btn-Settings"><i class="fa-solid fa-gear"></i></button>
+            </div>
+
+
+        </div>
+    </header>
+
+    <!-- Portes de garage section starts  -->
+
+
+    <!-- Nos Produit section starts  -->
+    <div class="Fix-UnderHeader-Space"></div>
+    <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&quot;);">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Accueil</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a href="./portes-de-garage.html">Portes De Garage</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="#"> Portes de garage traditionnelles</a></li>
+        </ol>
+    </nav>
+    <div class="section" id="Port-de-garage">
+
+        <div class="section-inner Intro">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="./Assets/img/visuelPGT.svg" class="img-responsive">
+                </div>
+                <div class="col-sm-6 InfoText">
+                    <h1 class="title">PORTES DE GARAGE TRADITIONNELLES</h1>
+                    <p>Découvrez tous nos modèles de portes de garage traditionnelles. A ouverture pliante, battante ou coulissante, elles sont fabriquées en France, entièrement sur-mesure pour répondre parfaitement à vos besoins.</p>
+                    <h2 class="ButtonLabel">PORTE DE GARAGE PLIANTE</h2>
+                    <div id="introCategContent">
+                        <p>Découvrez tous nos modèles de portes de garage traditionnelles. A <strong>ouverture pliante, battante ou coulissante</strong>, elles sont fabriquées en France, entièrement sur-mesure pour répondre parfaitement à vos besoins.</p>
+
+                        <h2>Porte de garage pliante</h2>
+
+                        <p><strong>Vous recherchez une porte de garage pliante ? </strong>Découvrez nos 2 modèles de portes de garage pliantes : <strong>Janiclos bois </strong>et<strong> Janiclos PVC</strong>.</p>
+
+                        <p>Janiclos est un modèle composé de deux vantaux s'ouvrant sur l'extérieur décliné en deux matériaux : <strong>PVC ou bois</strong>. Les vantaux sont fixés au mur par des gonds à sceller et des pentures. Des contre-pentures sont
+                            fixées à l'intérieur du garage pour assurer sa solidité.</p>
+
+                        <p>Nos portes de garage pliantes sont en <strong>manœuvre manuelle</strong> et peuvent bénéficier d'une <strong>ouverture par le centr</strong>e, idéale pour le passage des piétons ou des vélos.</p>
+
+                        <p>N'hésitez pas à nous contacter pour obtenir un devis personnalisé pour une porte de garage pliante !</p>
+
+                        <h2>Porte de garage battante</h2>
+
+                        <p>Les <strong>portes de garage battantes</strong> se déclinent également en PVC ou en bois avec le <strong>modèle Janibat</strong>. Une <strong>isolation renforcée</strong>, un grand de dimensions et de coloris, cette porte de garage
+                            allie esthétique et confort !</p>
+
+                        <p>Elle se compose de <strong>lames verticales en PVC ou en bois</strong> assemblées par des broches métalliques. Les deux vantaux s'ouvrent vers l'extérieur. La barre et l'écharpe sont installées à l'intérieur du garage. La porte
+                            est également équipée d'une contre-penture pour assurer la bonne solidité du tablier.</p>
+
+                        <p>Contactez-nous pour obtenir un devis personnalisé pour votre porte de garage battante !</p>
+
+                        <h2>Porte de garage coulissante</h2>
+
+                        <p>Quand on parle de porte de garage traditionnelle, on pense tout de suite à la<strong> porte de garage coulissant</strong>e ! Le <strong>modèle Janibel </strong>est une porte de garage coulissante disponible en bois ou en PVC. Elle
+                            s'adapte aussi bien aux façades anciennes et modernes et peut être personnalisée ! Optez par exemple pour<strong> un portillon</strong> ou <strong>des hublots rectangulaires.</strong></p>
+
+                        <p>Vous souhaitez un devis personnalisé ? Contactez-nous !</p>
+
+                        <p>Découvrez également notre <a href="https://www.france-fermetures.fr/portes-de-garage-sectionnelles">collection de portes de garage sectionnelles</a>.</p>
+
+                        <h2>Porte de garage traditionnelle sur-mesure</h2>
+
+                        <p>France Fermetures est un fabricant de <a href="https://www.france-fermetures.fr/personnalisation-porte-de-garage">portes de garage sur-mesure</a>. Tous les modèles de portes de garage sont donc adaptés à vos besoins et de nombreuses
+                            options vous sont proposées !</p>
+
+                        <p>Selon les modèles, vous pouvez opter pour des <strong>couleurs ou des finitions bois</strong> parmi un large choix. Faites entrer la lumière dans votre garage en y ajoutant<strong> des hublots rectangulaires</strong> !</p>
+
+                        <p>En PVC ou en polycarbonate, ils habillent votre porte de garage tout en apportant une lumière douce et naturelle. Si vous le souhaitez, vous pouvez également <strong>ajouter un seuil</strong> à votre porte de garage.</p>
+
+                        <h2>Choisir une porte de garage en bois ou en pvc</h2>
+
+                        <p>Notre gamme de portes de garage traditionnelles se décline en modèles en bois ou en PVC.<strong> Quel matériau choisir entre bois et PVC pour votre porte de garage ? </strong>Tout dépend de l'esthétique que vous souhaitez donner
+                            à votre maison ! Chaque matériau a ses qualités :</p>
+
+                        <h3>Les qualités du PVC :</h3>
+
+                        <ul>
+                            <li>Excellent rapport qualité / prix</li>
+                            <li>Aucun entretien nécessaire</li>
+                            <li>Bonne résistance aux intempéries : soleil, pluie, humidité</li>
+                        </ul>
+                        <h3>Les qualités du bois :</h3>
+
+                        <ul>
+                            <li>Large choix d'essences de bois : sapin blanc du nord, bois exotique, pin métropolitain, pin d'Oregon&nbsp;</li>
+                            <li>Matériau chaleureux</li>
+                            <li>Bonne longévité</li>
+                            <li>Entretien annuel voire tous les deux ans</li>
+                        </ul>
+                        <p>Si le PVC présente le meilleur rapport qualité/prix, le bois apporte une vraie chaleur à votre façade et reste un matériau de qualité.</p>
+
+                        <h2>Porte de garage traditionnelle avec portillon</h2>
+
+                        <p>Les portes de garage pliantes ou coulissantes peuvent <strong>intégrer un portillon</strong> pour faciliter le passage des piétons et des cyclistes.</p>
+
+                        <p>Sur les <strong>portes de garage pliantes</strong>, le portillon s'ouvre sur le milieu de la porte, pour un passage assez large.</p>
+
+                        <p>Du côté des <strong>portes de garage coulissantes</strong>, le portillon se trouve à l'extrémité gauche ou droite du portail. A vous de choisir le côté qui vous convient !</p>
+
+                        <h2>La sécurité de votre porte de garage traditionnelle</h2>
+
+                        <p>Les portes de garage traditionnelles bénéficient d'une <strong>serrure un point</strong>. Vous pouvez la remplacer en option par une<strong> serrure 3 points </strong>afin de renforcer la sécurité de votre porte de garage.</p>
+
+                        <p>Ajoutez une <strong>solution de télésurveillance</strong> à votre garage pour protéger au maximum vos biens. Contactez-nous pour obtenir des informations sur les modèles compatibles avec des solutions domotiques !</p>
+
+                        <h2>La pose de votre porte de garage traditionnelle</h2>
+
+                        <p>La pose de toutes les portes de garage France Fermetures est prise en charge par notre réseau de professionnels. Vous êtes donc entouré par un<strong> professionnel de terrain</strong>, qui connaît parfaitement votre environnement
+                            pour créer ensemble la porte de garage traditionnelle dont vous avez besoin.</p>
+
+                        <p>La pose est assurée dans les règles de l'art par des professionnels qui s'engagent pour la qualité.</p>
+
+                        <h2>Combien coûte une porte de garage traditionnelle ?</h2>
+
+                        <p>Le prix de votre porte de garage dépend de la dimension de votre garage, du système d'ouverture choisit, du matériau, des options et finitions souhaitées.</p>
+
+                        <p>Pour connaître le prix de la porte de garage dont vous rêvez, contactez-nous pour un <strong>devis personnalisé</strong>, parfaitement adapté à vos besoins !</p>
+
+                        <p>De la conception à la pose, un professionnel de la porte de garage est à vos côtés pour vous conseiller et vous accompagner.</p>
+                    </div>
+                    <a href="#" id="BtnToggleIntroText" class="ButtonLabel"><i class="fa-solid fa-arrow-down-long"></i> Lire la suite<i class="fa-solid fa-arrow-down-long"></i></a>
+                    <button id="DevisEnLignBtn" class="DevisEnLignBtn" href="#"><i class="fa-solid fa-location-dot"></i> Devis en ligne</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Nos Garages List section starts  -->
+    <div class="section" id="NosProductsList">
+        <div class="section-inner NosProductsShowList">
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <div class="productFilter filters">
+                        <h1 class="titleFilter">Filtrer ma recherche</h1>
+                        <ul class="">
+                            <li>
+                                <button class="btn btn-primary AllFilterBtns FilterBtn-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapseExample">Type de matériau<i class="fa-solid fa-square-plus"></i></button>
+                                <div class="accordion-collapse collapse  filter-item-1" data-bs-parent="#accordionExample" id="collapse-1">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="PVC" id="PVC" />
+                                        <label class="form-check-label" for="PVC">
+                                            PVC
+                                       </label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="btn btn-primary AllFilterBtns FilterBtn-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapseExample">Type d'ouverture<i class="fa-solid fa-square-plus"></i></button>
+                                <div class="accordion-collapse collapse filter-item-2" data-bs-parent="#accordionExample" id="collapse-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Coulissante" id="Coulissante" />
+                                        <label class="form-check-label" for="Coulissante">
+                                            Coulissante
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Battante pliante" id="Battante-pliante" />
+                                        <label class="form-check-label" for="Battante-pliante">
+                                            Battante pliante
+                                        </label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="btn btn-primary AllFilterBtns FilterBtn-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapseExample">Occultation<i class="fa-solid fa-square-plus"></i></button>
+                                <div class="accordion-collapse collapse filter-item-3" data-bs-parent="#accordionExample" id="collapse-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Totale" id="Totale" />
+                                        <label class="form-check-label" for="Totale">
+                                            Totale
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Partielle" id="Partielle" />
+                                        <label class="form-check-label" for="Partielle">
+                                            Partielle
+                                       </label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="btn btn-primary AllFilterBtns FilterBtn-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapseExample">Autres<i class="fa-solid fa-square-plus"></i></button>
+                                <div class="accordion-collapse collapse filter-item-4" data-bs-parent="#accordionExample" id="collapse-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Finitions usine" id="Finitions-usine" />
+                                        <label class="form-check-label" for="Finitions-usine">
+                                            Finitions usine
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Hublots" id="Hublots" />
+                                        <label class="form-check-label" for="Hublots">
+                                            Hublots
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Choix coloris" id="Choix-coloris" />
+                                        <label class="form-check-label" for="Choix-coloris">
+                                            Manoeuvre manuelle
+                                        </label>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-9">
+                    <div class="ProductList">
+                        <div class="card" data-id="Janibel" data-category="PVC Enroulable Coulissante">
+                            <div class="cardInfoHover">
+                                <p>Un confort d'utilisation remarquable et une qualité de finition soignée en font la porte sectionnelle plafond par excellence</p>
+                                <a href="#">Voir la fiche </a>
+                            </div>
+                            <a class="img-container" href=""><img src="./Assets/Product-img/Garages/Garage-5.jpg" class="card-img-top" alt="..." /></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Janibel PVC</h5>
+                                <div class="notation">
+                                    <div class="isolation">
+                                        <p>Isolation</p>
+                                        <ul>
+                                            <li class="On"><i class="fa-solid fa-temperature-half"></i></li>
+                                            <li class="On"><i class="fa-solid fa-temperature-half"></i></li>
+                                            <li class="On"><i class="fa-solid fa-temperature-half"></i></li>
+                                            <li><i class="fa-solid fa-temperature-half"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sécurité">
+                                        <p>Sécurité</p>
+                                        <ul>
+                                            <li class="On"><i class="fa-solid fa-lock"></i></li>
+                                            <li class="On"><i class="fa-solid fa-lock"></i></li>
+                                            <li class="On"><i class="fa-solid fa-lock"></i></li>
+                                            <li class="On"><i class="fa-solid fa-lock"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="prix">
+                                        <p>Prix</p>
+                                        <ul>
+                                            <li class="On"><i class="fa-solid fa-euro-sign"></i></li>
+                                            <li class="On"><i class="fa-solid fa-euro-sign"></i></li>
+                                            <li class="On"><i class="fa-solid fa-euro-sign"></i></li>
+                                            <li><i class="fa-solid fa-euro-sign"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-id="Janibat-PVC" data-category="Alu Enroulable Coulissante ">
+                            <div class="cardInfoHover">
+                                <p>Un confort d'utilisation remarquable et une qualité de finition soignée en font la porte sectionnelle plafond par excellence</p>
+                                <a href="#">Voir la fiche </a>
+                            </div>
+                            <a class="img-container " href=" "><img src="./Assets/Product-img/Garages/Garage-2.jpg " class="card-img-top " alt="... " /></a>
+                            <div class="card-body ">
+                                <h5 class="card-title ">Janibat PVC</h5>
+                                <div class="notation ">
+                                    <div class="isolation ">
+                                        <p>Isolation</p>
+                                        <ul>
+                                            <li class="On "><i class="fa-solid fa-temperature-half "></i></li>
+                                            <li class="On "><i class="fa-solid fa-temperature-half "></i></li>
+                                            <li class="On "><i class="fa-solid fa-temperature-half "></i></li>
+                                            <li><i class="fa-solid fa-temperature-half "></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sécurité ">
+                                        <p>Sécurité</p>
+                                        <ul>
+                                            <li class="On "><i class="fa-solid fa-lock "></i></li>
+                                            <li class="On "><i class="fa-solid fa-lock "></i></li>
+                                            <li class="On "><i class="fa-solid fa-lock "></i></li>
+                                            <li class="On "><i class="fa-solid fa-lock "></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="prix ">
+                                        <p>Prix</p>
+                                        <ul>
+                                            <li class="On "><i class="fa-solid fa-euro-sign "></i></li>
+                                            <li class="On "><i class="fa-solid fa-euro-sign "></i></li>
+                                            <li class="On "><i class="fa-solid fa-euro-sign "></i></li>
+                                            <li><i class="fa-solid fa-euro-sign "></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card " data-id="Janiclos-PVC" data-category="Acier Enroulable Coulissante ">
+                            <div class="cardInfoHover">
+                                <p>Un confort d'utilisation remarquable et une qualité de finition soignée en font la porte sectionnelle plafond par excellence</p>
+                                <a href="#">Voir la fiche </a>
+                            </div>
+                            <a class="img-container " href=" "><img src="./Assets/Product-img/Garages/Garage-3.jpg " class="card-img-top " alt="... " /></a>
+
+                            <div class="card-body ">
+                                <h5 class="card-title ">Janiclos PVC</h5>
+                                <div class="notation ">
+                                    <div class="isolation ">
+                                        <p>Isolation</p>
+                                        <ul>
+                                            <li class="On "><i class="fa-solid fa-temperature-half "></i></li>
+                                            <li class="On "><i class="fa-solid fa-temperature-half "></i></li>
+                                            <li class="On "><i class="fa-solid fa-temperature-half "></i></li>
+                                            <li><i class="fa-solid fa-temperature-half "></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sécurité ">
+                                        <p>Sécurité</p>
+                                        <ul>
+                                            <li class="On "><i class="fa-solid fa-lock "></i></li>
+                                            <li class="On "><i class="fa-solid fa-lock "></i></li>
+                                            <li class="On "><i class="fa-solid fa-lock "></i></li>
+                                            <li class="On "><i class="fa-solid fa-lock "></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="prix ">
+                                        <p>Prix</p>
+                                        <ul>
+                                            <li class="On "><i class="fa-solid fa-euro-sign "></i></li>
+                                            <li class="On "><i class="fa-solid fa-euro-sign "></i></li>
+                                            <li class="On "><i class="fa-solid fa-euro-sign "></i></li>
+                                            <li><i class="fa-solid fa-euro-sign "></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rassurance section starts  -->
+    <div class="section " id="rassuranceSection ">
+        <div class="section-inner rassurance ">
+            <ul>
+                <li>
+                    <a href="/portes-de-garage "><img src="./Assets/pictoSavoirFaire.svg " class="img-responsive svg " alt=" " />Made in France<br> 70 ans de savoir-faire</a>
+                </li>
+                <li>
+                    <a href="/volets-roulants "><img src="./Assets/pictoInstallateurs.svg " class="img-responsive svg " alt=" " />Des installateurs<br> sur toute la france</a>
+                </li>
+                <li>
+                    <a href="/volets-coulissants "><img src="./Assets/pictoGaranties.svg " class="img-responsive svg " alt=" " />Garanties Fabricant<br> jusqu'à 8 ans</a>
+                </li>
+                <li>
+                    <a href="/volets-battants "><img src="./Assets/pictoNormes.svg " class="img-responsive svg " alt=" " /> Normes et certifications<br> pour une qualité optimale</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer ">
+        <div class="footer-top ">
+            <div class="MapSection ">
+                <div class="mapouter ">
+                    <div class="gmap_canvas "><iframe class="gmap_iframe " width="100% " frameborder="0 " scrolling="no " marginheight="0 " marginwidth="0 " src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=University o78 Rue
+                            de Paris 94190 Villeneuve-Saint-Georges Francef Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed "></iframe>
+                        <a href="https://kokagames.com/ ">FNF</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-container ">
+                <div class="row ">
+                    <div class="col-sm-6 ">
+                        <div class="titleFooter ">Nos Coordoneé</div>
+                        <ul class="contact_info ">
+
+
+
+                            <li>
+                                <i class="fa-solid fa-phone "></i>
+                                <h4>
+                                    Téléphone:
+                                    <a href="/nous-rejoindre ">(+212) 6 51 99 06 29</a>
+                                </h4>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope "></i>
+                                <h4>
+                                    Email:
+                                    <a href="/nous-rejoindre ">lafrancaisdupvc@hotmail.fr</a>
+                                </h4>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-location-dot "></i>
+                                <h4>
+                                    Adresse:
+                                    <a href="/nous-rejoindre ">78 Bis rue d Paris 94190 Villeneuve-Saint-Georges</a>
+                                </h4>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="col-sm-6 ">
+                        <div class="titleFooter ">Nos services</div>
+                        <ul class="NosServicesFooter dots ">
+                            <li><a href="/devis ">Devis en ligne</a><span class="dot-disc "></span></li>
+                            <li><a href="/trouver-un-professionnel ">Trouver un installateur</a><span class="dot-disc "></span></li>
+                            <li><a href="/brochures ">Brochures</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="row ">
+                    <div class="col-sm-6 ">
+                        <div class="titleFooter ">Professionnels</div>
+                        <ul class="dots ">
+                            <li><a href="# ">Espace Pro</a><span class="dot-disc "></span></li>
+                            <li><a href="# ">Architectes</a></li>
+                        </ul>
+                        <div class="titleFooter ">Abonnez-vous à la newsletter</div>
+                        <form action="/inscription-newsletter " id="formNewsletter ">
+                            <input type="text " name="email " placeholder="Votre e-mail ">
+                            <button type="submit "><i class="fa fa-paper-plane " aria-hidden="true "></i></button>
+                            <div class="clearfix "></div>
+                        </form>
+                    </div>
+
+                    <div class="col-sm-6 ">
+                        <div class="titleFooter ">Nous rejoindre</div>
+                        <ul>
+                            <li>
+                                <a href="/nous-rejoindre ">Candidature spontanée</a>
+                            </li>
+                        </ul>
+                        <div class="titleFooter ">Suivez-nous sur</div>
+                        <ul class="lnkSocial ">
+                            <li><a href="https://www.youtube.com/user/FranceFermetures " target="_blank "><i class="fa fa-youtube-play " aria-hidden="true "></i></a></li>
+                            <li><a href="https://www.facebook.com/ffermetures " target="_blank "><i class="fa fa-facebook " aria-hidden="true "></i></a></li>
+                            <li><a href="https://twitter.com/FFermetures/ " target="_blank "><i class="fa fa-twitter " aria-hidden="true "></i></a></li>
+                            <li><a href="https://twitter.com/FFermetures/ " target="_blank "><i class="fa-brands fa-linkedin "></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-Copyrights ">
+            <ul class="Copright-Links ">
+                <li class="MentionsLegales-Btn ">
+                    <a href="# ">Mentions légales</a>
+                </li>
+                <span class="LineCenter "></span>
+                <li class="SiteMap-Btn ">
+                    <a id=" " href="# ">Plan du site</a>
+                </li>
+
+            </ul>
+
+            <ul class="Copright-Crédit ">
+                <li>
+                    <p>Déveloper par Mr.
+                        <a id="Author-Name " href="https://www.youssef-farni.com ">Youssef Farni</a>
+                        <span class="LineCenter "></span>
+                        <i class="fa-solid fa-copyright "></i> Tous droits réservés à La Française Du PVC 2022
+                    </p>
+                </li>
+
+
+            </ul>
+        </div>
+    </footer>
+
+    <div class="to-top-container ">
+        <a href="# " id="toTop " style="display: block; " class=" ">
+            <i class="fa-solid fa-chevron-up "></i>
+        </a>
+    </div>
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js "></script>
+
+    <!-- custom js file link  -->
+    <script src="./script.js "></script>
+    <script src="./Product_CutomJS.js"></script>
+
+    <!--JQuery file link  -->
+    <script src="./jquery-3.6.0.min.js "></script>
+    <!--Owl Carousel file link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js " integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+
+    <!-- gsap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js "></script>
+    <!-- CSSRulePlugin JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js "></script>
+
+    <!-- Bootrap 5 CSS CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+
+</body>
+
+<b:section id='fixelements' showaddelement='no' />
+
+</html>
