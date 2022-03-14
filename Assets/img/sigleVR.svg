@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="81px" height="81px" viewBox="0 0 81 81" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L67 0L67 54.1154L0 54.1154L0 0Z" id="path_1" />
+    <path d="M0 0L36.3125 0L36.3125 67L0 67L0 0Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Group-24-Copy-3" transform="translate(3 3)">
+    <g id="Group-4-Copy">
+      <path d="M0 0L75 0L75 75L0 75L0 0Z" id="Rectangle" fill="none" fill-rule="evenodd" stroke="none" />
+    </g>
+    <g id="Group-29" transform="translate(4.001953 9.885742)">
+      <g id="Group-28">
+        <g id="Rectangle-6">
+          <use xlink:href="#path_1" fill="none" stroke="#CFD3D5" stroke-width="6" />
+          <use stroke="none" fill="#1976D2" xlink:href="#path_1" fill-rule="evenodd" />
+        </g>
+        <g id="Group-27" transform="translate(3.7246094 3.1152344)">
+          <path d="M20.4844 0L37.244 0L37.244 14.8974L20.4844 14.8974L20.4844 0Z" id="Rectangle-7" fill="#E3F2FD" fill-rule="evenodd" stroke="none" />
+          <path d="M40.9688 0L57.7284 0L57.7284 14.8974L40.9688 14.8974L40.9688 0Z" id="Rectangle-7-Copy-4" fill="#E3F2FD" fill-rule="evenodd" stroke="none" />
+          <path d="M20.4844 17.6904L37.244 17.6904L37.244 46.5542L20.4844 46.5542L20.4844 17.6904Z" id="Rectangle-7-Copy-5" fill="#E3F2FD" fill-rule="evenodd" stroke="none" />
+          <path d="M0 0L16.7596 0L16.7596 14.8974L0 14.8974L0 0Z" id="Rectangle-7-Copy-6" fill="#E3F2FD" fill-rule="evenodd" stroke="none" />
+          <path d="M40.9688 17.6904L57.7284 17.6904L57.7284 46.5542L40.9688 46.5542L40.9688 17.6904Z" id="Rectangle-7-Copy-7" fill="#E3F2FD" fill-rule="evenodd" stroke="none" />
+          <path d="M0 17.6904L16.7596 17.6904L16.7596 46.5542L0 46.5542L0 17.6904Z" id="Rectangle-7-Copy-8" fill="#E3F2FD" fill-rule="evenodd" stroke="none" />
+        </g>
+        <g id="Group-26" transform="matrix(1.2675908E-06 1 -1 1.2675908E-06 67 0.045898438)">
+          <g id="Rectangle-8">
+            <use stroke="none" fill="#E1E1E1" xlink:href="#path_2" fill-rule="evenodd" />
+            <g clip-path="url(#clip_1)">
+              <use xlink:href="#path_2" fill="none" stroke="#808080" stroke-width="2" />
+            </g>
+          </g>
+          <g id="Group-25" transform="matrix(1.2675908E-06 1 -1 1.2675908E-06 30 55.998047)">
+            <path d="M0 0L7.98047 0L7.98047 1.39663L0 1.39663L0 0Z" id="Rectangle-9-Copy-13" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 4.5498L8 4.5498L8 5.94644L0.0195313 5.94644L0.0195313 4.5498Z" id="Rectangle-9-Copy-14" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 9.10059L7.98047 9.10059L7.98047 10.4972L0 10.4972L0 9.10059Z" id="Rectangle-9-Copy-15" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 13.8008L7.98047 13.8008L7.98047 15.1974L0 15.1974L0 13.8008Z" id="Rectangle-9-Copy-16" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 17.917L8 17.917L8 19.3136L0.0195313 19.3136L0.0195313 17.917Z" id="Rectangle-9-Copy-17" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 22.5713L8 22.5713L8 23.9679L0.0195313 23.9679L0.0195313 22.5713Z" id="Rectangle-9-Copy-18" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 26.6279L7.98047 26.6279L7.98047 28.0246L0 28.0246L0 26.6279Z" id="Rectangle-9-Copy-19" fill="#889097" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="Group-25-Copy" transform="matrix(1.2675908E-06 1 -1 1.2675908E-06 30 44.998047)">
+            <path d="M0 0L7.98047 0L7.98047 1.39663L0 1.39663L0 0Z" id="Rectangle-9-Copy-13" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 4.5498L8 4.5498L8 5.94644L0.0195313 5.94644L0.0195313 4.5498Z" id="Rectangle-9-Copy-14" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 9.10059L7.98047 9.10059L7.98047 10.4972L0 10.4972L0 9.10059Z" id="Rectangle-9-Copy-15" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 13.8008L7.98047 13.8008L7.98047 15.1974L0 15.1974L0 13.8008Z" id="Rectangle-9-Copy-16" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 17.917L8 17.917L8 19.3136L0.0195313 19.3136L0.0195313 17.917Z" id="Rectangle-9-Copy-17" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 22.5713L8 22.5713L8 23.9679L0.0195313 23.9679L0.0195313 22.5713Z" id="Rectangle-9-Copy-18" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 26.6279L7.98047 26.6279L7.98047 28.0246L0 28.0246L0 26.6279Z" id="Rectangle-9-Copy-19" fill="#889097" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="Group-25-Copy-2" transform="matrix(1.2675908E-06 1 -1 1.2675908E-06 30 33.998047)">
+            <path d="M0 0L7.98047 0L7.98047 1.39663L0 1.39663L0 0Z" id="Rectangle-9-Copy-13" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 4.5498L8 4.5498L8 5.94644L0.0195313 5.94644L0.0195313 4.5498Z" id="Rectangle-9-Copy-14" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 9.10059L7.98047 9.10059L7.98047 10.4972L0 10.4972L0 9.10059Z" id="Rectangle-9-Copy-15" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 13.8008L7.98047 13.8008L7.98047 15.1974L0 15.1974L0 13.8008Z" id="Rectangle-9-Copy-16" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 17.917L8 17.917L8 19.3136L0.0195313 19.3136L0.0195313 17.917Z" id="Rectangle-9-Copy-17" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 22.5713L8 22.5713L8 23.9679L0.0195313 23.9679L0.0195313 22.5713Z" id="Rectangle-9-Copy-18" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 26.6279L7.98047 26.6279L7.98047 28.0246L0 28.0246L0 26.6279Z" id="Rectangle-9-Copy-19" fill="#889097" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="Group-25-Copy-3" transform="matrix(1.2675908E-06 1 -1 1.2675908E-06 30 22.998047)">
+            <path d="M0 0L7.98047 0L7.98047 1.39663L0 1.39663L0 0Z" id="Rectangle-9-Copy-13" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 4.5498L8 4.5498L8 5.94644L0.0195313 5.94644L0.0195313 4.5498Z" id="Rectangle-9-Copy-14" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 9.10059L7.98047 9.10059L7.98047 10.4972L0 10.4972L0 9.10059Z" id="Rectangle-9-Copy-15" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 13.8008L7.98047 13.8008L7.98047 15.1974L0 15.1974L0 13.8008Z" id="Rectangle-9-Copy-16" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 17.917L8 17.917L8 19.3136L0.0195313 19.3136L0.0195313 17.917Z" id="Rectangle-9-Copy-17" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 22.5713L8 22.5713L8 23.9679L0.0195313 23.9679L0.0195313 22.5713Z" id="Rectangle-9-Copy-18" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 26.6279L7.98047 26.6279L7.98047 28.0246L0 28.0246L0 26.6279Z" id="Rectangle-9-Copy-19" fill="#889097" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="Group-25-Copy-4" transform="matrix(1.2675908E-06 1 -1 1.2675908E-06 30 12)">
+            <path d="M0 0L7.98047 0L7.98047 1.39663L0 1.39663L0 0Z" id="Rectangle-9-Copy-13" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 4.5498L8 4.5498L8 5.94644L0.0195313 5.94644L0.0195313 4.5498Z" id="Rectangle-9-Copy-14" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 9.10059L7.98047 9.10059L7.98047 10.4972L0 10.4972L0 9.10059Z" id="Rectangle-9-Copy-15" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 13.8008L7.98047 13.8008L7.98047 15.1974L0 15.1974L0 13.8008Z" id="Rectangle-9-Copy-16" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 17.917L8 17.917L8 19.3136L0.0195313 19.3136L0.0195313 17.917Z" id="Rectangle-9-Copy-17" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0195313 22.5713L8 22.5713L8 23.9679L0.0195313 23.9679L0.0195313 22.5713Z" id="Rectangle-9-Copy-18" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 26.6279L7.98047 26.6279L7.98047 28.0246L0 28.0246L0 26.6279Z" id="Rectangle-9-Copy-19" fill="#889097" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="Group-25-Copy-5" transform="matrix(1.2675908E-06 1 -1 1.2675908E-06 30 2)">
+            <path d="M0 0L6.98291 0L6.98291 1.39663L0 1.39663L0 0Z" id="Rectangle-9-Copy-13" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0175781 4.5498L7.00049 4.5498L7.00049 5.94644L0.0175781 5.94644L0.0175781 4.5498Z" id="Rectangle-9-Copy-14" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 9.10059L6.98291 9.10059L6.98291 10.4972L0 10.4972L0 9.10059Z" id="Rectangle-9-Copy-15" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 13.8008L6.98291 13.8008L6.98291 15.1974L0 15.1974L0 13.8008Z" id="Rectangle-9-Copy-16" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0175781 17.917L7.00049 17.917L7.00049 19.3136L0.0175781 19.3136L0.0175781 17.917Z" id="Rectangle-9-Copy-17" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0.0175781 22.5713L7.00049 22.5713L7.00049 23.9679L0.0175781 23.9679L0.0175781 22.5713Z" id="Rectangle-9-Copy-18" fill="#889097" fill-rule="evenodd" stroke="none" />
+            <path d="M0 26.6279L6.98291 26.6279L6.98291 28.0246L0 28.0246L0 26.6279Z" id="Rectangle-9-Copy-19" fill="#889097" fill-rule="evenodd" stroke="none" />
+          </g>
+        </g>
+      </g>
+      <path d="M27.999 32.2607L38.001 32.2607Q38.0994 32.2607 38.1959 32.2799Q38.2924 32.2991 38.3833 32.3368Q38.4742 32.3744 38.556 32.4291Q38.6378 32.4838 38.7074 32.5533Q38.777 32.6229 38.8316 32.7047Q38.8863 32.7865 38.924 32.8774Q38.9616 32.9683 38.9808 33.0648Q39 33.1614 39 33.2597L39 33.2617Q39 33.3601 38.9808 33.4566Q38.9616 33.5531 38.924 33.644Q38.8863 33.7349 38.8316 33.8168Q38.777 33.8986 38.7074 33.9681Q38.6378 34.0377 38.556 34.0924Q38.4742 34.147 38.3833 34.1847Q38.2924 34.2223 38.1959 34.2415Q38.0994 34.2607 38.001 34.2607L27.999 34.2607Q27.9006 34.2607 27.8041 34.2415Q27.7076 34.2223 27.6167 34.1847Q27.5258 34.147 27.444 34.0924Q27.3622 34.0377 27.2926 33.9681Q27.223 33.8986 27.1684 33.8168Q27.1137 33.7349 27.076 33.644Q27.0384 33.5531 27.0192 33.4566Q27 33.3601 27 33.2617L27 33.2597Q27 33.1614 27.0192 33.0648Q27.0384 32.9683 27.076 32.8774Q27.1137 32.7865 27.1684 32.7047Q27.223 32.6229 27.2926 32.5533Q27.3622 32.4838 27.444 32.4291Q27.5258 32.3744 27.6167 32.3368Q27.7076 32.2991 27.8041 32.2799Q27.9006 32.2607 27.999 32.2607Z" id="Rectangle-6" fill="#949292" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
