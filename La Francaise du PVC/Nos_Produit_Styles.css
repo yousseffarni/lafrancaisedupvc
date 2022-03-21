@@ -1,0 +1,825 @@
+.MapSection {
+    display: none;
+}
+
+
+/*  Section Port De Garage Styles */
+
+.section#Port-de-garage {
+    background: #f2f2f2;
+}
+
+.Fix-UnderHeader-Space {
+    margin-bottom: 18rem;
+    top: 0;
+    position: relative;
+}
+
+.section .Intro {
+    gap: 10px;
+    display: block;
+    align-items: center;
+    margin-right: auto;
+    width: 90%;
+    margin-left: auto;
+    padding: 50px 10px;
+    background: content-box;
+}
+
+
+.section#Port-de-garage .Intro .InfoText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section#Port-de-garage .Intro .InfoText h1 {
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.section .Intro p {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: none;
+    margin: 0 0 20px 0;
+    width: 100%;
+    -webkit-text-stroke: 0.4px black;
+    text-align: center;
+}
+
+.section#Port-de-garage .Intro .InfoText h2 {
+    position: initial;
+    letter-spacing: 2.5px;
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin: 15px 0 15px 0;
+    -webkit-text-stroke: 0.4px black;
+    width: 100%;
+    text-align: center;
+}
+
+.section#Port-de-garage .Intro #introCategContent {
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: All .6s;
+}
+
+.section#Port-de-garage .Intro #introCategContent.show {
+    height: fit-content;
+    transition: All .6s;
+}
+
+.section#Port-de-garage .Intro #introCategContent h3 {
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: initial;
+    text-align: center;
+    -webkit-text-stroke: 0.4px black;
+}
+
+.section#Port-de-garage .Intro #introCategContent.show p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    transition: all .7s;
+    text-align: center;
+    font-weight: 200;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.section#Port-de-garage .Intro #introCategContent ul {
+    padding: 10px;
+}
+
+.section#Port-de-garage .Intro #introCategContent p,
+.section#Port-de-garage .Intro #introCategContent ul li {
+    font-size: 20px;
+    transition: all .7s;
+    text-align: start;
+}
+
+.section#Port-de-garage .Intro .InfoText a {
+    font-size: 17px;
+    padding: 10px;
+    color: #0c64ac;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.section#Port-de-garage .Intro .InfoText a#BtnToggleIntroText i {
+    padding: 0 6px;
+}
+
+.section#Port-de-garage .Intro .InfoText button:hover {
+    color: #fff;
+    background: #0c64ac;
+}
+
+.section#Port-de-garage .Intro .InfoText button {
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background: #cfd3d5;
+    padding: 10px 55px;
+    gap: 10px;
+    border-radius: 3px;
+    align-content: center;
+}
+
+
+/*  Section NosGaragesList Styles */
+
+.section .SelectedProduitsList {
+    padding: 20px;
+    margin: 0 35px;
+}
+
+.section .SelectedProduitsList ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.section .SelectedProduitsList ul img.img-responsive.svg {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.section .SelectedProduitsList ul li a span {
+    text-transform: uppercase;
+}
+
+.section .SelectedProduitsList ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 17px;
+    transition: all .2s;
+}
+
+.section .SelectedProduitsList ul li:hover a {
+    color: #1976d2;
+    transition: all .2s;
+}
+
+.section#NosProductsList {
+    padding: 35px 0 60px 0;
+}
+
+.ProductList {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section#NosProductsList .card a.img-container {
+    text-decoration: none;
+    height: fit-content;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.ProductList img.card-img-top {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    transition: All .7s;
+}
+
+.section#NosProductsList .card:hover img {
+    transform: scale(1.2);
+    background-position: center;
+    transition: All .7s;
+}
+
+.section#NosProductsList .card {
+    display: flex;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.section#NosProductsList .card:hover {
+    box-shadow: 12px 8px 8px 0px rgb(0 0 0 / 20%);
+    transition: all .4s;
+}
+
+.ProductList .card-title {
+    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    -webkit-text-stroke: 0.4px black;
+    color: #000;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.ProductList .notation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductList .notation div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProductList .notation div p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.ProductList .notation ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    padding: 10px;
+}
+
+.ProductList .notation ul li i {
+    font-size: 15px;
+    color: #999898;
+}
+
+.ProductList .notation ul li.On i {
+    color: #dc3545;
+}
+
+.section#NosProductsList .card .cardInfoHover {
+    width: 100%;
+    height: 100%;
+    left: -1000px;
+    z-index: 1000;
+    display: flex;
+    position: absolute;
+    background: rgb(0 0 0 / 56%);
+    backdrop-filter: blur(2px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+
+.section#NosProductsList .card:hover .cardInfoHover {
+    left: 0;
+    transition: .5s;
+}
+
+.section#NosProductsList .card .cardInfoHover a:hover {
+    background: #dc3545;
+    color: #fff;
+}
+
+.section#NosProductsList .card .cardInfoHover a {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    background: #e7e7e7;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.section#NosProductsList .card .cardInfoHover p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 16px;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.breadcrumb {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+nav .breadcrumb li a {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.breadcrumb-item.active {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+nav .breadcrumb li.breadcrumb-item.active a {
+    text-decoration: underline;
+}
+
+nav .breadcrumb li.breadcrumb-item a {
+    text-decoration: none;
+}
+
+nav .breadcrumb li.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.section#NosProductsList {
+    padding-top: 40px;
+    background: #e5e5e5;
+}
+
+.section-inner.NosProductsShowList {
+    margin: 0 35px;
+}
+
+.section .NosProductsShowList .productFilter {
+    padding: 15px;
+    padding-bottom: 35px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    -webkit-box-shadow: 2px 2px 35px -3px rgb(0 0 0 / 24%);
+    box-shadow: 2px 2px 16px -3px rgb(0 0 0 / 24%);
+}
+
+.section .NosProductsShowList .productFilter h1 {
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.section .NosProductsShowList .productFilter ul {
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+
+.section .NosProductsShowList .productFilter ul li {
+    width: 100%;
+    border-radius: 2px;
+    background: #e7e7e7;
+}
+
+.row .productFilter button {
+    border: none;
+    background: none;
+    letter-spacing: 2px;
+    padding: 13px 10px;
+    color: #1976d2;
+    font-size: 17px;
+    display: flex;
+    text-align: start;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .productFilter button i {
+    font-size: 30px;
+}
+
+.row .productFilter button.IsClicked i.fa-plus-square:before,
+.row .productFilter button.IsClicked i.fa-square-plus:before {
+    content: "\f146";
+}
+
+div#collapse-1 {
+    margin: 10px;
+}
+
+.row .productFilter .form-check {
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 6px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.row .productFilter .collapse .form-check label {
+    font-size: 18px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.section .productFilter .form-check input {
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.form-check-input[type=checkbox]:checked {
+    border: 3px solid #0080ff;
+}
+
+.section#NosProductsList .card {
+    width: 26rem;
+    overflow: hidden;
+}
+
+.section#NosProductsList .DomotiqueCards .card {
+    width: 35rem;
+}
+
+
+
+.section-inner.Inscription {
+    gap: 10px;
+    display: block;
+    align-items: center;
+    margin-right: auto;
+    width: 100%;
+    height: fit-content;
+    margin-left: auto;
+    padding: 50px 10px;
+    background: content-box;
+}
+.CandidatureForm h1, .CandidatureForm intro {
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 35px;
+}
+.intro {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 15px;
+}
+.row.FormInscrire {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group i:before {
+    width: 20px;
+    height: 20px;
+}
+.form-group em {
+    font-size: 13px;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.row.FormInscrire #formCandidature select:focus, .row.FormInscrire #formCandidature input:focus {
+    outline: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.CandidatureForm button:hover {
+    background: #1a5587;
+    color: #fff;
+}
+
+.row.FormInscrire #formCandidature select:focus, .row.FormInscrire #formCandidature input:focus, .form-group textarea:focus {
+    border-color: #24e38b;
+}
+.row.FormInscrire #formCandidature select, .row.FormInscrire #formCandidature input, .row.FormInscrire #formCandidature .select {
+    background: none;
+    border: none;
+    border: 2px solid #256fae;
+    height: 40px;
+    border-radius: 0;
+}
+input.form-control.inputfile {
+    padding-top: 6px;
+}
+
+
+.row.FormInscrire #formCandidature .select {
+    width: fit-content;display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+
+.row.FormInscrire #formCandidature .select select {
+    border: none;
+}
+
+.row.FormInscrire #formCandidature .select label {
+    width: fit-content;
+}
+
+.form-group .select i {
+    color: #286ba6;
+    border: none;
+    background: none;
+}
+
+
+.row.FormInscrire #formCandidature .select.Fullwidth {
+    width: 100%;
+}
+
+.row.FormInscrire #formCandidature select, .row.FormInscrire #formCandidature input {
+    background: none;
+    border: none;
+    border: 2px solid #256fae;
+    height: 40px;
+    border-radius: 0;
+}
+
+.row.FormInscrire #formCandidature .form-control {
+    font-size: 16px;
+}
+
+.form-group {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    place-content: center flex-start;
+}
+
+.form-group i {
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    border: 2px solid #256fae;
+    padding: 10px;
+    height: 40px;
+    background: #256fae;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group i.fa-solid.fa-arrow-down {
+    background: none;
+    border: none;
+    width: fit-content;
+    font-size: 15px;
+    border-bottom: 2px solid #256fae;
+}
+.row.FormInscrire #formCandidature select#job_application_civility {
+    width: 100px;
+}
+
+.pictoFormDownload .form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+span.col-xs-8 {
+    width: 30px;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    max-width: 100%;
+    max-height: 300px;
+    background: none;
+    min-width: 100%;
+    border: 2px solid #256fae;
+}
+
+.center {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.CandidatureForm button {
+    font-size: 15px;
+    padding: 5px 15px;
+    border: 2px solid #256fae;
+}
+
+.CandidatureForm button i {
+    padding: 0 5px;
+    color: #1a5587;
+}
+
+p.mandatory {
+    font-size: 15px;
+    color: red;
+}
+
+.row.Conseil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .Intro p.Filter {
+    margin-bottom: 5px;
+    margin-top: 35px;
+    letter-spacing: 3px;
+}
+
+ul.ul.Filters li input {
+    position: absolute;
+    width: 200px;
+    opacity: .01;
+    height: 150px;
+    cursor: pointer;
+}
+
+ul.ul.Filters {
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+label.checkbox-custom-label {
+    width: 100%;
+    height: 100%;
+}
+
+.section ul.ul.Filters li:hover {
+    border-color: #1976d2;
+}
+
+.section ul.ul.Filters li {
+    background: #ebeaea;
+    border-radius: 5px;
+    border: 2px solid #cfcfcf;
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.section ul.ul.Filters li.active, .section ul.ul.Filters li.active:hover {
+    border-color: #ffffff;
+    background: #2b3c61;
+}
+
+.section#Port-de-garage .Intro .InfoText ul.ul.Filters li.active a {
+    color: #fff;
+}
+
+.section ul.ul.Filters li.active i {
+    position: absolute;
+    font-size: 25px;
+    padding: 10px;
+    opacity: 1;
+    color: #fff;
+}
+
+.section ul.ul.Filters li i {
+    color: #ebeaea;
+    position: absolute;
+    opacity: 0;
+}
+
+.section#Port-de-garage .Intro .InfoText ul.ul.Filters a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.section#NosProductsList .DomotiqueCards .card {
+    width: 40rem;
+    border: 2px solid #c1c1c1;
+}
+
+.section#NosProductsList .DomotiqueCards .card a.img-container {
+    text-decoration: none;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.DomotiqueCards .card-body {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProductList.DomotiqueCards .card-body .card-title {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    -webkit-text-stroke: 0.4px black;
+    color: #1976d2;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+.ProductList.DomotiqueCards .card-body .card-title span {
+    font-size: 15px;
+    color: #000;
+    -webkit-text-stroke: none;
+}
+
+.row .BtnSection {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+
+.row button {
+    font-size: 20px;
+    width: fit-content;
+    padding: 5px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #000;
+    border: 2px solid #1976d2;
+    background: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.row button:hover {
+    background: #1976d2;
+    border-color: #1976d2;
+    color: #fff;
+}
+
+.row .VoirPlusBtn {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.ProductList.DomotiqueCards img.card-img-top {
+    width: fit-content;
+    object-fit: cover;
+    height: 250px;
+    transition: All .7s;
+}
